@@ -5,7 +5,8 @@ const pool = new Pool({
     port: 5432,
     database: "postgres",
     user: "marvin",
-    password: "Seminario12026"
+    password: "Seminario12026",
+    ssl:{ca:fs.readFileSync("{ca-cert filename}")}
 });
 
 module.exports = pool;
