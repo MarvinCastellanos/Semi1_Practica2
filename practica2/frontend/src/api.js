@@ -1,5 +1,5 @@
-const API_PYTHON = "http://localhost:5000";
-const API_NODE = "http://localhost:5001";
+const API_PYTHON = "http://68.155.222.245/";
+const API_NODE = "http://68.155.222.245/";
 
 export {
     API_PYTHON,
